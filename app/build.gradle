@@ -24,8 +24,8 @@ apply plugin: 'androidx.navigation.safeargs'
 
 android {
     compileSdkVersion 30
-    buildFeatures {
-        dataBinding true
+    dataBinding {
+        enabled = true
     }
     defaultConfig {
         applicationId 'com.example.android.navigation'
@@ -34,6 +34,7 @@ android {
         vectorDrawables.useSupportLibrary = true
         versionCode 1
         versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {

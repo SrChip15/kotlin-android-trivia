@@ -1,10 +1,8 @@
 *.iml
 .gradle
-/local.properties
 /.idea
+/local.properties
 .DS_Store
 /build
 /captures
 .externalNativeBuild
-/.idea/jarRepositories.xml
-/.idea/kotlinc.xml
